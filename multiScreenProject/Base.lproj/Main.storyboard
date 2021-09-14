@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Dc0-Fr-gOP">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Selection-->
+        <scene sceneID="j2r-cG-Sfq">
+            <objects>
+                <viewController id="VG3-pv-fzn" customClass="SelectionViewController" customModule="multiScreenProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="x9q-hu-Yfi">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5si-cN-ru8">
+                                <rect key="frame" x="20" y="126" width="374" height="52"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="KKG-gJ-VNO"/>
+                                    <constraint firstAttribute="width" constant="374" id="zJW-PD-4Om"/>
+                                </constraints>
+                                <state key="normal" title="Red Colored Backgrounds">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" systemColor="systemRedColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="redButtonTapped:" destination="VG3-pv-fzn" eventType="touchUpInside" id="X6w-8q-wm6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UtE-lp-MnS">
+                                <rect key="frame" x="20" y="188" width="374" height="52"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="374" id="Vax-hP-Qz3"/>
+                                    <constraint firstAttribute="height" constant="52" id="eOy-w1-dxm"/>
+                                </constraints>
+                                <state key="normal" title="Blue Colored Backgrounds">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" systemColor="systemRedColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="blueButtonTapped:" destination="VG3-pv-fzn" eventType="touchUpInside" id="3Ez-u6-SES"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="03m-Cj-F7R">
+                                <rect key="frame" x="20" y="64" width="374" height="52"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="BDn-7z-utH"/>
+                                    <constraint firstAttribute="width" constant="374" id="s1r-Lf-buo"/>
+                                </constraints>
+                                <state key="normal" title="Default Backgrounds">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" systemColor="systemRedColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="blueButtonTapped:" destination="VG3-pv-fzn" eventType="touchUpInside" id="dae-dh-edj"/>
+                                    <action selector="defaultButtonTapped:" destination="VG3-pv-fzn" eventType="touchUpInside" id="Ge5-6u-Ff5"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="CAt-kf-cSd"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="03m-Cj-F7R" firstAttribute="top" secondItem="CAt-kf-cSd" secondAttribute="top" constant="20" id="1y2-Va-kai"/>
+                            <constraint firstItem="5si-cN-ru8" firstAttribute="leading" secondItem="CAt-kf-cSd" secondAttribute="leading" constant="20" id="4af-Vp-dnm"/>
+                            <constraint firstItem="CAt-kf-cSd" firstAttribute="trailing" secondItem="5si-cN-ru8" secondAttribute="trailing" constant="20" id="LOP-w4-xNg"/>
+                            <constraint firstItem="5si-cN-ru8" firstAttribute="centerX" secondItem="x9q-hu-Yfi" secondAttribute="centerX" id="Nyi-La-B0u"/>
+                            <constraint firstItem="5si-cN-ru8" firstAttribute="top" secondItem="03m-Cj-F7R" secondAttribute="bottom" constant="10" id="PA8-0r-jpr"/>
+                            <constraint firstItem="03m-Cj-F7R" firstAttribute="centerX" secondItem="x9q-hu-Yfi" secondAttribute="centerX" id="T7d-Vv-Ibb"/>
+                            <constraint firstItem="UtE-lp-MnS" firstAttribute="centerX" secondItem="x9q-hu-Yfi" secondAttribute="centerX" id="jzI-Cq-AyA"/>
+                            <constraint firstItem="UtE-lp-MnS" firstAttribute="top" secondItem="5si-cN-ru8" secondAttribute="bottom" constant="10" id="k8I-aw-Dnj"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Selection" id="Nmb-ax-zFX"/>
+                    <connections>
+                        <outlet property="blueButton" destination="UtE-lp-MnS" id="rct-Hb-Hiw"/>
+                        <outlet property="redButton" destination="5si-cN-ru8" id="qAi-49-OAA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yvH-oc-jM3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="312" y="1023"/>
+        </scene>
+        <!--Screen 2-->
+        <scene sceneID="bDq-hK-NLA">
+            <objects>
+                <viewController id="nR1-vv-w2o" customClass="SecondViewController" customModule="multiScreenProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2rB-SS-dfx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="jia-81-TD0"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Screen 2" id="eIB-PX-yxB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f9b-4Y-wCL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="313" y="291"/>
+        </scene>
+        <!--Screen 1-->
+        <scene sceneID="8aw-SW-Kl4">
+            <objects>
+                <viewController id="2Gj-99-Ovf" customClass="ThirdViewController" customModule="multiScreenProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="K5E-iK-ZsH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Cff-lm-nYQ"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Screen 1" id="WtB-xr-t5b"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ECL-zK-gOw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="313" y="-316"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="dD3-gi-coI">
+            <objects>
+                <tabBarController id="Dc0-Fr-gOP" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="j2B-1J-qNs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="2Gj-99-Ovf" kind="relationship" relationship="viewControllers" id="L7Q-4k-NmA"/>
+                        <segue destination="nR1-vv-w2o" kind="relationship" relationship="viewControllers" id="0aD-rs-aHK"/>
+                        <segue destination="VG3-pv-fzn" kind="relationship" relationship="viewControllers" id="Dtv-OT-jqr"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Y7-vE-1NG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-586" y="291"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
