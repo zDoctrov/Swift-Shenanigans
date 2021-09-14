@@ -13,6 +13,7 @@
 		196CFBF526F147220009BE41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 196CFBF326F147220009BE41 /* Main.storyboard */; };
 		196CFBF726F147240009BE41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 196CFBF626F147240009BE41 /* Assets.xcassets */; };
 		196CFBFA26F147240009BE41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 196CFBF826F147240009BE41 /* LaunchScreen.storyboard */; };
+		196CFC0426F165E40009BE41 /* PracticeViewController_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196CFC0326F165E40009BE41 /* PracticeViewController_1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		196CFBF626F147240009BE41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		196CFBF926F147240009BE41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		196CFBFB26F147240009BE41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		196CFC0326F165E40009BE41 /* PracticeViewController_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController_1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				196CFBF626F147240009BE41 /* Assets.xcassets */,
 				196CFBF826F147240009BE41 /* LaunchScreen.storyboard */,
 				196CFBFB26F147240009BE41 /* Info.plist */,
+				196CFC0326F165E40009BE41 /* PracticeViewController_1.swift */,
 			);
 			path = tableViewStudies;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 				196CFBF226F147220009BE41 /* ViewController.swift in Sources */,
 				196CFBEE26F147220009BE41 /* AppDelegate.swift in Sources */,
 				196CFBF026F147220009BE41 /* SceneDelegate.swift in Sources */,
+				196CFC0426F165E40009BE41 /* PracticeViewController_1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
