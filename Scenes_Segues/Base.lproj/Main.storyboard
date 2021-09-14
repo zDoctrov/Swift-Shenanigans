@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="650-iM-X3t">
+    <device id="retina3_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Animal Select-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="animal_vc" id="BYZ-38-t0r" userLabel="Animal Select" customClass="AnimalViewController" customModule="Scenes_Segues" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose Your Animal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ykz-Q6-ZYh">
+                                <rect key="frame" x="83.5" y="0.0" width="153" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eMD-Wn-JND">
+                                <rect key="frame" x="121.5" y="402" width="77" height="48"/>
+                                <color key="backgroundColor" systemColor="tertiaryLabelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Okay!">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" weight="regular"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="uEq-Av-YZF">
+                                <rect key="frame" x="110" y="62" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Kay-Nz-Ix3"/>
+                                    <constraint firstAttribute="height" constant="100" id="rw5-6y-4zb"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="chicken"/>
+                                <connections>
+                                    <action selector="chickenTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gmG-G3-e4J"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="2iE-FB-863">
+                                <rect key="frame" x="110" y="172" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="1Uz-t2-Ogk"/>
+                                    <constraint firstAttribute="height" constant="100" id="rcy-S1-iBP"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="cow"/>
+                                <connections>
+                                    <action selector="cowTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7mO-26-Edr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="TfE-NH-wFz">
+                                <rect key="frame" x="110" y="282" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="NAa-uA-8UU"/>
+                                    <constraint firstAttribute="height" constant="100" id="lPU-sH-lIU"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="pig"/>
+                                <connections>
+                                    <action selector="pigTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v8z-Hl-pKh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                        <color key="tintColor" name="AccentColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eMD-Wn-JND" secondAttribute="bottom" constant="30" id="1RT-Tj-CYY"/>
+                            <constraint firstItem="2iE-FB-863" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2MI-6k-r1c"/>
+                            <constraint firstItem="TfE-NH-wFz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6nN-nh-IFV"/>
+                            <constraint firstItem="eMD-Wn-JND" firstAttribute="top" secondItem="TfE-NH-wFz" secondAttribute="bottom" constant="20" id="7O7-IZ-gnM"/>
+                            <constraint firstItem="uEq-Av-YZF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FjJ-er-NfU"/>
+                            <constraint firstItem="ykz-Q6-ZYh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Mf1-hG-3eP"/>
+                            <constraint firstItem="eMD-Wn-JND" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="P0c-Tw-CGh"/>
+                            <constraint firstItem="TfE-NH-wFz" firstAttribute="top" secondItem="2iE-FB-863" secondAttribute="bottom" constant="10" id="bL8-5S-0cp"/>
+                            <constraint firstItem="2iE-FB-863" firstAttribute="top" secondItem="uEq-Av-YZF" secondAttribute="bottom" constant="10" id="g47-gi-Mtn"/>
+                            <constraint firstItem="ykz-Q6-ZYh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="oh8-Jj-HBc"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="xcd-0k-Rgm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1151" y="94"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="y0l-C1-B2L">
+            <objects>
+                <viewController storyboardIdentifier="home_vc" id="650-iM-X3t" userLabel="Home" customClass="HomeViewController" customModule="Scenes_Segues" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fz8-vT-wqt">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gf5-pf-6a0" userLabel="Color Select">
+                                <rect key="frame" x="133.5" y="0.0" width="53" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DHN-V6-0S7">
+                                <rect key="frame" x="61" y="402" width="198" height="48"/>
+                                <color key="backgroundColor" systemColor="tertiaryLabelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Make Selection">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" weight="regular"/>
+                                </state>
+                                <connections>
+                                    <action selector="makeSelection:" destination="650-iM-X3t" eventType="touchUpInside" id="D3V-XA-Odh"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pig" translatesAutoresizingMaskIntoConstraints="NO" id="Cut-5i-Gvk">
+                                <rect key="frame" x="110" y="190" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="WBW-My-KlY"/>
+                                    <constraint firstAttribute="width" constant="100" id="gVh-wS-Ish"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Animal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ST1-Ik-TD5">
+                                <rect key="frame" x="134.5" y="169" width="51.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ydz-Ar-JaY"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <constraints>
+                            <constraint firstItem="Gf5-pf-6a0" firstAttribute="top" secondItem="Ydz-Ar-JaY" secondAttribute="top" id="4aP-oy-pgT"/>
+                            <constraint firstItem="DHN-V6-0S7" firstAttribute="centerX" secondItem="fz8-vT-wqt" secondAttribute="centerX" id="7Qo-I3-fGb"/>
+                            <constraint firstItem="Ydz-Ar-JaY" firstAttribute="bottom" secondItem="DHN-V6-0S7" secondAttribute="bottom" constant="30" id="AXw-AE-laU"/>
+                            <constraint firstItem="Cut-5i-Gvk" firstAttribute="centerY" secondItem="fz8-vT-wqt" secondAttribute="centerY" id="G6n-1G-hOW"/>
+                            <constraint firstItem="Cut-5i-Gvk" firstAttribute="centerX" secondItem="fz8-vT-wqt" secondAttribute="centerX" id="J8G-8f-F4X"/>
+                            <constraint firstItem="Gf5-pf-6a0" firstAttribute="centerX" secondItem="fz8-vT-wqt" secondAttribute="centerX" id="edk-Rc-AUB"/>
+                            <constraint firstItem="Cut-5i-Gvk" firstAttribute="top" secondItem="ST1-Ik-TD5" secondAttribute="bottom" id="qks-RP-aaN"/>
+                            <constraint firstItem="ST1-Ik-TD5" firstAttribute="centerX" secondItem="fz8-vT-wqt" secondAttribute="centerX" id="vm7-KM-CbV"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="34d-Qm-Ahu"/>
+                    <connections>
+                        <outlet property="animalImage" destination="Cut-5i-Gvk" id="Qb9-4T-pKU"/>
+                        <outlet property="animalLabel" destination="ST1-Ik-TD5" id="mqB-lx-Yll"/>
+                        <outlet property="homeView" destination="fz8-vT-wqt" id="jvK-Fa-suH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bac-tp-OQ7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="416" y="94"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="chicken" width="320" height="320"/>
+        <image name="cow" width="236" height="177"/>
+        <image name="pig" width="780" height="585"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
