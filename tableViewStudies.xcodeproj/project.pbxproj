@@ -94,11 +94,27 @@
 		196CFC0C26F18AC70009BE41 /* Lesson 2 - Custom Cells */ = {
 			isa = PBXGroup;
 			children = (
+				1994587926F25745005511A0 /* Tutorial */,
+				1994587A26F25780005511A0 /* Practice_1 */,
+			);
+			path = "Lesson 2 - Custom Cells";
+			sourceTree = "<group>";
+		};
+		1994587926F25745005511A0 /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
 				196CFC0926F182360009BE41 /* VideoListScreen.swift */,
 				1994587526F239A2005511A0 /* VideoCell.swift */,
 				1994587726F23B76005511A0 /* Video.swift */,
 			);
-			path = "Lesson 2 - Custom Cells";
+			path = Tutorial;
+			sourceTree = "<group>";
+		};
+		1994587A26F25780005511A0 /* Practice_1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Practice_1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
