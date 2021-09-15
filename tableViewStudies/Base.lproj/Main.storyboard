@@ -71,7 +71,7 @@
                                                 <constraint firstAttribute="width" constant="130" id="HgZ-6K-brP"/>
                                             </constraints>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="L1p-Go-Hps">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="L1p-Go-Hps">
                                             <rect key="frame" x="154" y="32.5" width="228" height="25"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="25" id="Vtj-Ml-cls"/>
