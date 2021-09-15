@@ -8,9 +8,10 @@
 import UIKit
 
 class p1_ViewController: UIViewController {
-
     
     @IBOutlet weak var p1_tableView: UITableView!
+    
+    //Array of a custom class called "Video" which contains images (UIImage and titles (Strings)
     
     override func viewDidLoad() {
         super.viewDidLoad()
