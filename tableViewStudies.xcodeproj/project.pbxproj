@@ -17,6 +17,8 @@
 		196CFC0626F17A5B0009BE41 /* PracticeViewController_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196CFC0526F17A5B0009BE41 /* PracticeViewController_2.swift */; };
 		196CFC0826F17ECB0009BE41 /* PracticeViewController_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196CFC0726F17ECB0009BE41 /* PracticeViewController_3.swift */; };
 		196CFC0A26F182360009BE41 /* VideoListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196CFC0926F182360009BE41 /* VideoListScreen.swift */; };
+		1994587626F239A2005511A0 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1994587526F239A2005511A0 /* VideoCell.swift */; };
+		1994587826F23B76005511A0 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1994587726F23B76005511A0 /* Video.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		196CFC0526F17A5B0009BE41 /* PracticeViewController_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController_2.swift; sourceTree = "<group>"; };
 		196CFC0726F17ECB0009BE41 /* PracticeViewController_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController_3.swift; sourceTree = "<group>"; };
 		196CFC0926F182360009BE41 /* VideoListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListScreen.swift; sourceTree = "<group>"; };
+		1994587526F239A2005511A0 /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		1994587726F23B76005511A0 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,8 @@
 			isa = PBXGroup;
 			children = (
 				196CFC0926F182360009BE41 /* VideoListScreen.swift */,
+				1994587526F239A2005511A0 /* VideoCell.swift */,
+				1994587726F23B76005511A0 /* Video.swift */,
 			);
 			path = "Lesson 2 - Custom Cells";
 			sourceTree = "<group>";
@@ -166,8 +172,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				196CFC0626F17A5B0009BE41 /* PracticeViewController_2.swift in Sources */,
+				1994587626F239A2005511A0 /* VideoCell.swift in Sources */,
 				196CFC0826F17ECB0009BE41 /* PracticeViewController_3.swift in Sources */,
 				196CFBF226F147220009BE41 /* ViewController.swift in Sources */,
+				1994587826F23B76005511A0 /* Video.swift in Sources */,
 				196CFC0A26F182360009BE41 /* VideoListScreen.swift in Sources */,
 				196CFBEE26F147220009BE41 /* AppDelegate.swift in Sources */,
 				196CFBF026F147220009BE41 /* SceneDelegate.swift in Sources */,

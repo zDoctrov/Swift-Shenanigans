@@ -57,7 +57,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="videoCell" rowHeight="90" id="6Js-Rw-dq5">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="videoCell" rowHeight="90" id="6Js-Rw-dq5" customClass="VideoCell" customModule="tableViewStudies" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="24.5" width="414" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6Js-Rw-dq5" id="0Z3-k9-RAS">
@@ -89,6 +89,10 @@
                                         <constraint firstItem="L1p-Go-Hps" firstAttribute="leading" secondItem="Zhq-AT-K4D" secondAttribute="trailing" constant="12" id="Ur1-pa-XF8"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="videoImageView" destination="Zhq-AT-K4D" id="Hea-km-N4i"/>
+                                    <outlet property="videoTitleLabel" destination="L1p-Go-Hps" id="dVO-fl-hnO"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                     </tableView>
