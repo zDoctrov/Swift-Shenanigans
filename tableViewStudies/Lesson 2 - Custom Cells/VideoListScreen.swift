@@ -55,6 +55,11 @@ class VideoListScreen: UIViewController {
 
 extension VideoListScreen: UITableViewDelegate{
     
+    //Changes the height of each row, so that the image and title aren't as crammed
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 90.0
+    }
+    
 }
 
 extension VideoListScreen: UITableViewDataSource{
