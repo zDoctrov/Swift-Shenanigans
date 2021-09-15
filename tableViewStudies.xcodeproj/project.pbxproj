@@ -19,6 +19,7 @@
 		196CFC0A26F182360009BE41 /* VideoListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196CFC0926F182360009BE41 /* VideoListScreen.swift */; };
 		1994587626F239A2005511A0 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1994587526F239A2005511A0 /* VideoCell.swift */; };
 		1994587826F23B76005511A0 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1994587726F23B76005511A0 /* Video.swift */; };
+		1994587C26F2583C005511A0 /* p1_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1994587B26F2583C005511A0 /* p1_ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		196CFC0926F182360009BE41 /* VideoListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListScreen.swift; sourceTree = "<group>"; };
 		1994587526F239A2005511A0 /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
 		1994587726F23B76005511A0 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		1994587B26F2583C005511A0 /* p1_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = p1_ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		1994587A26F25780005511A0 /* Practice_1 */ = {
 			isa = PBXGroup;
 			children = (
+				1994587B26F2583C005511A0 /* p1_ViewController.swift */,
 			);
 			path = Practice_1;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				196CFC0626F17A5B0009BE41 /* PracticeViewController_2.swift in Sources */,
+				1994587C26F2583C005511A0 /* p1_ViewController.swift in Sources */,
 				1994587626F239A2005511A0 /* VideoCell.swift in Sources */,
 				196CFC0826F17ECB0009BE41 /* PracticeViewController_3.swift in Sources */,
 				196CFBF226F147220009BE41 /* ViewController.swift in Sources */,

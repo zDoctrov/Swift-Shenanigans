@@ -8,13 +8,13 @@
 import UIKit
 
 class VideoListScreen: UIViewController {
+   
+    @IBOutlet var videoTableView: UITableView!
     
     /*Array of data used to customize each video cell ([] = Empty Array)
         Note that the "Video" class is defined in a separate file (Video.swift)
     */
     var videos: [Video] = []
-    
-    @IBOutlet var videoTableView: UITableView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
