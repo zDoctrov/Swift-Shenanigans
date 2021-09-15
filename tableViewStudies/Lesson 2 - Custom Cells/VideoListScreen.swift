@@ -31,7 +31,7 @@ extension VideoListScreen: UITableViewDataSource{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "videoCell", for: indexPath)
         
-        cell.textLabel?.text = "Here be videos"
+        cell.textLabel?.text = "Here be videos" 
         
         return cell
     }

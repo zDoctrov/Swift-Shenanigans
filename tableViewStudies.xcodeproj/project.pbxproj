@@ -64,19 +64,35 @@
 		196CFBEC26F147220009BE41 /* tableViewStudies */ = {
 			isa = PBXGroup;
 			children = (
-				196CFBED26F147220009BE41 /* AppDelegate.swift */,
-				196CFBEF26F147220009BE41 /* SceneDelegate.swift */,
-				196CFBF126F147220009BE41 /* ViewController.swift */,
 				196CFBF326F147220009BE41 /* Main.storyboard */,
 				196CFBF626F147240009BE41 /* Assets.xcassets */,
+				196CFC0B26F1898B0009BE41 /* Lesson 1 - The Basics */,
+				196CFC0C26F18AC70009BE41 /* Lesson 2 - Custom Cells */,
+				196CFBED26F147220009BE41 /* AppDelegate.swift */,
+				196CFBEF26F147220009BE41 /* SceneDelegate.swift */,
 				196CFBF826F147240009BE41 /* LaunchScreen.storyboard */,
 				196CFBFB26F147240009BE41 /* Info.plist */,
+			);
+			path = tableViewStudies;
+			sourceTree = "<group>";
+		};
+		196CFC0B26F1898B0009BE41 /* Lesson 1 - The Basics */ = {
+			isa = PBXGroup;
+			children = (
 				196CFC0326F165E40009BE41 /* PracticeViewController_1.swift */,
 				196CFC0526F17A5B0009BE41 /* PracticeViewController_2.swift */,
 				196CFC0726F17ECB0009BE41 /* PracticeViewController_3.swift */,
+				196CFBF126F147220009BE41 /* ViewController.swift */,
+			);
+			path = "Lesson 1 - The Basics";
+			sourceTree = "<group>";
+		};
+		196CFC0C26F18AC70009BE41 /* Lesson 2 - Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
 				196CFC0926F182360009BE41 /* VideoListScreen.swift */,
 			);
-			path = tableViewStudies;
+			path = "Lesson 2 - Custom Cells";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
