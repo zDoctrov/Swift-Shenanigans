@@ -16,6 +16,7 @@
 		196CFC0426F165E40009BE41 /* PracticeViewController_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196CFC0326F165E40009BE41 /* PracticeViewController_1.swift */; };
 		196CFC0626F17A5B0009BE41 /* PracticeViewController_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196CFC0526F17A5B0009BE41 /* PracticeViewController_2.swift */; };
 		196CFC0826F17ECB0009BE41 /* PracticeViewController_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196CFC0726F17ECB0009BE41 /* PracticeViewController_3.swift */; };
+		196CFC0A26F182360009BE41 /* VideoListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196CFC0926F182360009BE41 /* VideoListScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		196CFC0326F165E40009BE41 /* PracticeViewController_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController_1.swift; sourceTree = "<group>"; };
 		196CFC0526F17A5B0009BE41 /* PracticeViewController_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController_2.swift; sourceTree = "<group>"; };
 		196CFC0726F17ECB0009BE41 /* PracticeViewController_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController_3.swift; sourceTree = "<group>"; };
+		196CFC0926F182360009BE41 /* VideoListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				196CFC0326F165E40009BE41 /* PracticeViewController_1.swift */,
 				196CFC0526F17A5B0009BE41 /* PracticeViewController_2.swift */,
 				196CFC0726F17ECB0009BE41 /* PracticeViewController_3.swift */,
+				196CFC0926F182360009BE41 /* VideoListScreen.swift */,
 			);
 			path = tableViewStudies;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				196CFC0626F17A5B0009BE41 /* PracticeViewController_2.swift in Sources */,
 				196CFC0826F17ECB0009BE41 /* PracticeViewController_3.swift in Sources */,
 				196CFBF226F147220009BE41 /* ViewController.swift in Sources */,
+				196CFC0A26F182360009BE41 /* VideoListScreen.swift in Sources */,
 				196CFBEE26F147220009BE41 /* AppDelegate.swift in Sources */,
 				196CFBF026F147220009BE41 /* SceneDelegate.swift in Sources */,
 				196CFC0426F165E40009BE41 /* PracticeViewController_1.swift in Sources */,
