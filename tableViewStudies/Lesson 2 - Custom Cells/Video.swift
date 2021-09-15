@@ -6,14 +6,16 @@
 //
 
 import Foundation
+import UIKit
 
 class Video {
 
     var image: UIImage
     var title: String
     
+    //constructor
     init (image: UIImage, title: String) {
-        image =
-        title = "N/A"
+        self.image = image
+        self.title = title
     }
 }
