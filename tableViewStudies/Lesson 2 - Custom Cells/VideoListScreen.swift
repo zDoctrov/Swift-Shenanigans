@@ -33,11 +33,21 @@ class VideoListScreen: UIViewController {
         
         //Create image & title combinations
         //  let varName = Video(image: UIImage(name: STRING), title: STRING)
-        let video1 = Video(image: UIImage(named: "Lesson_2/beginner-first-app")!, title: "Your First App")
+        let video1 = Video(image: UIImage(named: "Lesson_2/beginner-first-app")!, title: "Build Your First App")
+        let video2 = Video(image: UIImage(named: "Lesson_2/dev-setup")!, title: "Development Setup")
+        let video3 = Video(image: UIImage(named: "Lesson_2/int-overview")!, title: "iOS Interview Questions")
+        let video4 = Video(image: UIImage(named: "Lesson_2/ss-delegates")!, title: "UIButtons in UITableViewCell")
+        let video5 = Video(image: UIImage(named: "Lesson_2/ss-uipickerview-card")!, title: "UIPickerView Tutorial")
+        let video6 = Video(image: UIImage(named: "Lesson_2/vlog-4")!, title: "iOS Contractor Typical Day")
         
         //Add all of these into the tempVideos array
         // arrayVar.append(varName)
         tempVideos.append(video1)
+        tempVideos.append(video2)
+        tempVideos.append(video3)
+        tempVideos.append(video4)
+        tempVideos.append(video5)
+        tempVideos.append(video6)
         
         return tempVideos
     }
