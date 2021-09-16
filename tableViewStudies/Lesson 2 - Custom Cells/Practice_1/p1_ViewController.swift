@@ -28,7 +28,14 @@ class p1_ViewController: UIViewController {
         
         let video1 = p1_Video(image: UIImage(named: "Lesson_2/beginner-first-app")!, title: "Build Your First App")
         
+        let video2 = p1_Video(image: UIImage(named: "Lesson_2/dev-setup")!, title: "Like woah bro you set'em up to dev'em up")
+        
         tempArray.append(video1)
+        
+        tempArray.append(video2)
+        
+        tempArray.append(video1)
+        
         
         return tempArray
     }
@@ -51,7 +58,7 @@ extension p1_ViewController: UITableViewDelegate{
 
 extension p1_ViewController: UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return videoArray.count    //Change to array.count later
+        return videoArray.count
     }
     
     
