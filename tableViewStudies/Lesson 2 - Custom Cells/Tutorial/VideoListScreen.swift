@@ -15,6 +15,10 @@ class VideoListScreen: UIViewController {
         Note that the "Video" class is defined in a separate file (Video.swift)
     */
     var videos: [Video] = []
+    
+    //(Tangent: Messing Around with Arrays)
+    var Formalities: [String] = ["Hello", "Sayonara"]
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +29,9 @@ class VideoListScreen: UIViewController {
         //Table View Information Flow Created
         videoTableView.delegate = self
         videoTableView.dataSource = self
+        
+        //(Tangent: Messing Around with Arrays)
+        print(Formalities[1])
     }
     
     //Left off at 16:13
