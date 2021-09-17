@@ -349,6 +349,62 @@
             </objects>
             <point key="canvasLocation" x="1807" y="836"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="2Ty-Pi-1cU">
+            <objects>
+                <viewController id="zQM-zr-hJS" customClass="P3_ViewController" customModule="tableViewStudies" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Fvy-eR-qdu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="VcM-rv-Ruy">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="p3_cell" rowHeight="150" id="APZ-KF-m66" customClass="P3_TableCell" customModule="tableViewStudies" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="24.5" width="414" height="150"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="APZ-KF-m66" id="vYY-lv-Z6g">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="150"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nNW-vE-rKY">
+                                                    <rect key="frame" x="16" y="11" width="240" height="128"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="nNW-vE-rKY" secondAttribute="height" multiplier="15:8" id="ivI-y2-iZu"/>
+                                                        <constraint firstAttribute="height" constant="128" id="sVm-NA-KKl"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="nNW-vE-rKY" firstAttribute="centerY" secondItem="vYY-lv-Z6g" secondAttribute="centerY" id="ITB-EE-cm2"/>
+                                                <constraint firstItem="nNW-vE-rKY" firstAttribute="leading" secondItem="vYY-lv-Z6g" secondAttribute="leading" constant="16" id="Jxc-xU-UtT"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="p3_imageView" destination="nNW-vE-rKY" id="Mqz-H1-pUX"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="pbh-f1-mPj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="pbh-f1-mPj" firstAttribute="bottom" secondItem="VcM-rv-Ruy" secondAttribute="bottom" id="4du-Ss-K4x"/>
+                            <constraint firstItem="VcM-rv-Ruy" firstAttribute="top" secondItem="pbh-f1-mPj" secondAttribute="top" id="83Y-um-3gs"/>
+                            <constraint firstItem="pbh-f1-mPj" firstAttribute="trailing" secondItem="VcM-rv-Ruy" secondAttribute="trailing" id="DSk-jY-qit"/>
+                            <constraint firstItem="VcM-rv-Ruy" firstAttribute="leading" secondItem="pbh-f1-mPj" secondAttribute="leading" id="I3q-mT-M3E"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="VcM-rv-Ruy" id="aS8-rg-aEM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LqV-VL-eAz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2619" y="836"/>
+        </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
